@@ -1,0 +1,4 @@
+#!/bin/sh
+/bin/blue-initram > /dev/null
+gatttool -t random -b 00:11:22:33:44:55 --char-read --handle 0x0014
+
